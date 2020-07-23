@@ -1,0 +1,50 @@
+console.clear(); 
+
+console.log("Hello World");
+
+let myFirstVariable = 5; 
+let mySecondVariable = 10; 
+
+// console.log(myFirstVariable + mySecondVariable);
+
+const firstName = "Rosendo"; 
+const lastName = "Pili"; 
+
+// console.log(firstName + " " + lastName); 
+
+myFirstVariable = 1000; 
+mySecondVariable = 20; 
+
+// console.log(myFirstVariable + mySecondVariable);
+
+// console.log(myFirstVariable > mySecondVariable); 
+
+function returnLargest(){
+    //function body// 
+    if(myFirstVariable > mySecondVariable){
+        console.log(myFirstVariable) ; 
+    }else{
+        console.log(mySecondVariable) ; 
+    }
+}
+
+//DOM Document Object Model
+
+let title = document.querySelector('h1'); 
+
+title.textContent = "My Name is Rosendo"
+
+// console.log(title); 
+
+let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]; 
+
+console.log(daysOfWeek.length); 
+
+console.log("Rosendo".length); 
+
+for (let i = 0; i < daysOfWeek.length; i++){
+    console.log(daysOfWeek[i]); 
+}
+
+
+// returnLargest(); 

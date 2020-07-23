@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rosendo's First Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li> <a href="/#aboutMeSection">About Me</a> </li>
+                <li> <a href="/#projectSection">Projects</a> </li>
+                <li> <a href="/#contactSection">Contact</a> </li>
+            </ul>
+        </header>
+        <main>
+
+            <section id="aboutMeSection">
+
+                <div>
+                    <h1> Rosendo Pili </h1>
+                    <p class="subtitle"> STEAM Coach & Software Engineer Instructor </p>
+                </div>
+
+            </section>
+    
+            <section id="projectSection" class="mediaSection">
+                <h2 class="mediaSection">Links, Images, Videos</h2>
+                <div class="mediaSection">
+                    <a href="https://www.google.com/" target="_blank"> GOOGLE </a>
+        
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=640:*">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UMKWijxv0kE" frameborder="0"></iframe>
+
+                </div>
+            </section>
+
+            <section>
+                <h2>Lists</h2>
+                    <div>
+                        <ol>
+                            this is an ordered list
+                            <li> Item </li>
+                            <li> Item </li>
+                            <li> Item </li>
+                        </ol>
+                    </div>
+            </section>     
+            
+            <section id="contactSection">
+                <div>
+                    <h2> Tables & Forms </h2>
+                    <form> 
+                        <input type="text" placeholder="Name">
+                        <input type="number" placeholder="Number"> 
+                        <input type="submit" placeholder="Submit"> 
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th colspan="1"> Header 1</th>
+                            <th> Header 2</th>
+                            <th> Header 3</th>
+                            <th> Header 4</th>
+                        </tr>
+                        <tr>
+                            <td>Example 1</td>
+                            <td>Example 2</td>
+                            <td>Example 3</td>
+                            <td>Example 4</td>
+                        </tr>
+                        <tr>
+                            <td>Pizza</td>
+                            <td>Ice Cream</td>
+                            <td>Tacos</td>
+                            <td>Fried Chicken</td>
+                        </tr>
+                    </table>
+                </div>
+               
+            </section>
+            
+        </main>
+        <footer>
+            <p> Made By Rosendo 2020</p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    
+</html>
